@@ -1,6 +1,6 @@
 # Testing with Jest - Trendyol Frontend Bootcamp Week 5
 
-## Project Content
+## Project Details
 
 This project includes writing the functions of the following three assignments and testing them with **Jest**.
 
