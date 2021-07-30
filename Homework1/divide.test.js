@@ -1,7 +1,7 @@
 import divide from './divide.js';
 
 describe('divide()', () => {
-  it('should divide', () => {
+  it('should divide two number', () => {
     expect(divide(2, 5)).toBe(0.4);
   });
 
@@ -13,7 +13,7 @@ describe('divide()', () => {
     expect(() => divide(10, NaN)).toThrow("Invalid parameter");
   });
 
-  it('should throw error when dividsor is zero', () => {
+  it('should throw error when divisor is zero', () => {
     expect(() => divide(5, 0)).toThrow("Divide by zero");
   });
 });
